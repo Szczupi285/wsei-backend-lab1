@@ -1,0 +1,8 @@
+﻿@page
+@model QuizListModel
+@{
+}
+@foreach(var quiz in Model.Quizzes){
+    <a class="nav-link text-dark" asp-page="/Quiz/Item" asp-route-itemId="1" asp-route-quizId="@quiz.Id">@quiz.Title</a>
+    <br/>
+}
