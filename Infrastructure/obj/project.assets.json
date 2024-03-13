@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-      "outputPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\obj\\",
+      "outputPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\vs2022\\NuGetPackages"
@@ -566,8 +566,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+            "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }

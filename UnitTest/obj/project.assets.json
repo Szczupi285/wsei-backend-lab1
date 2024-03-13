@@ -6662,11 +6662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repository\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "E:\\repository\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
+      "projectPath": "E:\\repository\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-      "outputPath": "E:\\repository\\wsei-backend-lab\\UnitTest\\obj\\",
+      "outputPath": "E:\\repository\\wsei-backend-lab1\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\vs2022\\NuGetPackages"
@@ -6688,11 +6688,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+            "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+            "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

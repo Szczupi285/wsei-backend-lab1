@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CSbnPAo4ZnNtVXWVg5WyYYv7Zm/3i6aAYfo3/kKQ8tVB+FeyjuI7JyckUlUXadGoY3xjj1N8XW/dLHBPM4Hp+g==",
+  "dgSpecHash": "XcFY7APQBHnKFN71aNwGccvZAd+NS9pu+vF6Egk4nNP0KWT8Y3ynijiqCmZ5WOPjMkL2pZG0Tnu6rqrfVrG86Q==",
   "success": true,
-  "projectFilePath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barte\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\barte\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

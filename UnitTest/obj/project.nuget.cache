@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iZqGn7t9MDuUPT1g+IiDrzsqJavcornZWouQiuymb1KgQ9mUSaWxeFD4KwoBa8ff9HFyvRGtNbcvRb/0svftYA==",
+  "dgSpecHash": "57P6w7Cif3urDOkre0civiJzyheAGNS0m7g+gtM3h8LLHQV6Iuzaifk2elL9vqFmYoHNxHhEfPjVQDtu0pBm/A==",
   "success": true,
-  "projectFilePath": "E:\\repository\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "E:\\repository\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barte\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\barte\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

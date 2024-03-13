@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-      "outputPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\obj\\",
+      "outputPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\vs2022\\NuGetPackages"

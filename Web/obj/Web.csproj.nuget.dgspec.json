@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repository\\wsei-backend-lab\\Web\\Web.csproj": {}
+    "E:\\repository\\wsei-backend-lab1\\Web\\Web.csproj": {}
   },
   "projects": {
-    "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-        "outputPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "outputPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\vs2022\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-        "outputPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "outputPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\vs2022\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "E:\\repository\\wsei-backend-lab\\Web\\Web.csproj": {
+    "E:\\repository\\wsei-backend-lab1\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repository\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "E:\\repository\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectPath": "E:\\repository\\wsei-backend-lab1\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-        "outputPath": "E:\\repository\\wsei-backend-lab\\Web\\obj\\",
+        "outputPath": "E:\\repository\\wsei-backend-lab1\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\vs2022\\NuGetPackages"
@@ -173,11 +173,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "E:\\repository\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\repository\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
