@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Interfaces.Criteria;
+﻿using ApplicationCore.Exceptions;
+using ApplicationCore.Interfaces.Criteria;
 using ApplicationCore.Interfaces.Repository;
 
 namespace BackendLab01;
@@ -34,7 +35,9 @@ public class QuizUserService: IQuizUserService
         var quiz = quizRepository.FindById(quizId);
         var item = quiz.Items.FirstOrDefault(x => x.Id == quizItemId);
         var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
-        answerRepository.Add(userAnswer);
+        if (answerRepository.FindById(userAnswer.Id) is null)
+            answerRepository.Add(userAnswer);
+        throw new DuplicateAnswerException(userId, quizId, item.Id);
     }
 
 

@@ -6656,24 +6656,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\barte\\.nuget\\packages\\": {},
-    "E:\\vs2022\\NuGetPackages": {}
+    "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repository\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "E:\\repository\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-      "outputPath": "E:\\repository\\wsei-backend-lab1\\UnitTest\\obj\\",
+      "projectPath": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "E:\\vs2022\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\barte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6681,18 +6676,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
+            "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\repository\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

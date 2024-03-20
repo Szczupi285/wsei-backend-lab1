@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dQAU8xPKkrw3RoRUmrveuPlzf1CW41HmytRIzx7HU0ZZFoS8A8FbaLL2OzIlyYLOlZ4tyUNrXcQcKDVCoV9VnA==",
+  "dgSpecHash": "cvO2xFxCTNBAs/sKIZrXVUnndwKsX2l+MD+TGuMnBIRzY1tBbClJe3yvJIXhyoPmguwXRtaFvEQ45iSw2wLpuw==",
   "success": true,
-  "projectFilePath": "E:\\repository\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "D:\\Users\\bartosz.bienienda\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
