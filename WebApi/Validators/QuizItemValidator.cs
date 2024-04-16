@@ -8,17 +8,19 @@ namespace WebApi.Validators
         public QuizItemValidator()
         {
             RuleFor(q => q.Question)
-                .MaximumLength(200).WithMessage("Pytanie za dlugie, max 200 znakow")
-                .MinimumLength(5)
-                .Must(q => q.EndsWith("?")).WithMessage("brak pytajnika na koncu");
-
+                .MaximumLength(200).WithMessage("Pytanie nie może być dłuższe niż 200 znaków.")
+                .MinimumLength(3).WithMessage("Pytanie nie może być krótsze od 3 znaków!");
             RuleForEach(q => q.IncorrectAnswers)
-                .MinimumLength(2)
-                .MaximumLength(100);
-
+                .MaximumLength(200)
+                .MinimumLength(1);
+            RuleFor(q => q.CorrectAnswer)
+                .MinimumLength(1)
+                .MaximumLength(200);
             RuleFor(q => new { q.CorrectAnswer, q.IncorrectAnswers })
-                .Must(p => !p.IncorrectAnswers.Contains(p.CorrectAnswer))
-                .WithMessage("poprawna odpowiedz nie moze wystepowac w liscie niepoprawnych");
+                .Must(t => !t.IncorrectAnswers.Contains(t.CorrectAnswer))
+                .WithMessage("Poprawna odpowiedź nie powinna występować w liście niepoprawnych odpowiedzi!");
+            RuleFor(q => q.IncorrectAnswers)
+                .Must(i => i.Count > 0);
         }
     }
 }

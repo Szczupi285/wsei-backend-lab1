@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Exceptions;
+using AutoMapper;
 using BackendLab01;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -12,9 +13,12 @@ namespace WebApi.Controllers
     {
         private IQuizUserService _userService;
 
-        public ApiQuizUserController(IQuizUserService quizUserService)
+        private readonly IMapper _mapper;
+
+        public ApiQuizUserController(IQuizUserService quizUserService, IMapper mapper)
         {
             _userService = quizUserService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -33,11 +37,11 @@ namespace WebApi.Controllers
                 _userService.SaveUserAnswerForQuiz(quizId, 1, itemId, answer.Answer);
                 return Ok();
             }
-            catch(DuplicateAnswerException ex) 
+            catch (DuplicateAnswerException ex)
             {
                 return new BadRequestObjectResult(ex.Message);
             }
-           
+
         }
         [HttpGet]
         [Route("{quizId}/answers")]
@@ -49,6 +53,27 @@ namespace WebApi.Controllers
                 CorrectAnswers = correct,
                 QuizId = quizId,
                 userId = 1
+            };
+
+        }
+        [Route("{quizId}/answers/{userId}")]
+        [HttpGet]
+        public ActionResult<object> GetQuizFeedback(int quizId, int userId)
+        {
+            var feedback = _userService.GetUserAnswersForQuiz(quizId, userId);
+            return new
+            {
+                quizId = quizId,
+                userId = userId,
+                totalQuestions = _userService.FindQuizById(quizId)?.Items.Count ?? 0,
+                answers = feedback.Select(a =>
+                    new
+                    {
+                        question = a.QuizItem.Question,
+                        answer = a.Answer,
+                        isCorrect = a.IsCorrect()
+                    }
+                ).AsEnumerable()
             };
 
         }

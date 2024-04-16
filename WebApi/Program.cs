@@ -1,8 +1,11 @@
 using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repository;
 using Microsoft.AspNetCore.Builder;
+using WebApi.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IntGenerator>();
 builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
@@ -18,6 +22,7 @@ builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRe
 builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
 builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
 builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
+builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
 builder.Services
     .AddControllersWithViews()
     .AddNewtonsoftJson();

@@ -20,6 +20,7 @@ namespace WebApi.Mapper
                 );
             CreateMap<NewQuizDto, Quiz>();
 
+
         }
     }
 }

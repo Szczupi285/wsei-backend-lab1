@@ -528,3 +528,5 @@ C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.M
 C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\AutoMapper.dll
 C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

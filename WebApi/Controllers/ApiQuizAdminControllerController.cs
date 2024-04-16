@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
+using System.ComponentModel.DataAnnotations;
 using WebApi.DTO;
 
 namespace WebApi.Controllers
@@ -56,6 +57,7 @@ namespace WebApi.Controllers
                 });
             }
             int previousCount = quiz.Items.Count;
+            
             patchDoc.ApplyTo(quiz, ModelState);
             if (!ModelState.IsValid)
             {
