@@ -1,7 +1,7 @@
 using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using Infrastructure.Memory;
-using Infrastructure.Memory.Repository;
+using Infrastructure.Memory.Repositories;
 
 namespace UnitTest;
 

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Infrastructure.Mappers;
 using Infrastructure.EF;
 using BackendLab01;
+using System.Runtime.InteropServices;
 
 namespace Infrastructure.Services
 {
@@ -54,32 +55,44 @@ namespace Infrastructure.Services
 
         public IQueryable<QuizItemUserAnswer> GetUserAnswersForQuiz(int quizId, int userId)
         {
-            throw new NotImplementedException();
+            var items = _context.UserAnswers.Where(u => u.UserId == userId && u.QuizId == quizId).ToList();
+            List<QuizItemUserAnswer> usa = new List<QuizItemUserAnswer>();
+            foreach(var item in items)
+            {
+                usa.Add(QuizMapper.FromEntityToQuizItemUserAnswer(item));
+            }
+            return usa.AsQueryable();
+            
         }
 
         public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
         {
-            var quizzEntity = _context.Quizzes.FirstOrDefault(q => q.Id == quizId);
-            if (quizzEntity is null)
-            {
-                throw new QuizNotFoundException($"Quiz with id {quizId} not found");
-            }
-            var item = quizzEntity.Items.FirstOrDefault(q => q.Id == quizItemId); // pobierz encję elementu quizu o quizItemId 
-            if (item is null)
-            {
-                throw new QuizItemNotFoundException($"Quiz item with id {quizId} not found");
-            }
             QuizItemUserAnswerEntity entity = new QuizItemUserAnswerEntity()
             {
                 UserId = userId,
-                QuizId = quizId,                
                 QuizItemId = quizItemId,
+                QuizId = quizId,
                 UserAnswer = answer
-            };        
-        
-            var savedEntity = _context.Add(entity).Entity;
-            _context.SaveChanges();
-               return QuizMapper.FromEntityToQuizItemUserAnswer(entity);
+            };
+            try
+            {
+                var saved = _context.UserAnswers.Add(entity).Entity;
+                _context.SaveChanges();
+                return new QuizItemUserAnswer(QuizMapper.FromEntityToQuizItem(saved.QuizItem), saved.UserId, saved.QuizId, saved.UserAnswer);
+               
+            }
+            catch (DbUpdateException e)
+            {
+                if (e.InnerException.Message.StartsWith("The INSERT"))
+                {
+                    throw new QuizNotFoundException("Quiz, quiz item or user not found. Can't save!");
+                }
+                if (e.InnerException.Message.StartsWith("Violation of"))
+                {
+                    throw new QuizAnswerItemAlreadyExistsException(quizId, quizItemId, userId);
+                }
+                throw new Exception(e.Message);
+            }
         }
 
         List<QuizItemUserAnswer> IQuizUserService.GetUserAnswersForQuiz(int quizId, int userId)

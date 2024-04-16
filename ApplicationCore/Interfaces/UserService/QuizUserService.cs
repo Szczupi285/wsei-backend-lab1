@@ -30,13 +30,16 @@ public class QuizUserService: IQuizUserService
         return quizRepository.FindById(id);
     }
 
-    public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
+    public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
     {
         var quiz = quizRepository.FindById(quizId);
         var item = quiz.Items.FirstOrDefault(x => x.Id == quizItemId);
         var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
         if (answerRepository.FindById(userAnswer.Id) is null)
+        {
             answerRepository.Add(userAnswer);
+            return userAnswer;
+        }
         throw new DuplicateAnswerException(userId, quizId, item.Id);
     }
 

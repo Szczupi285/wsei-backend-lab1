@@ -1,10 +1,12 @@
 ﻿using Infrastructure.EF;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Infrastructure
 {
@@ -18,6 +20,7 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer("DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
             optionsBuilder.UseSqlServer(
                 "DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True");
         }
@@ -28,6 +31,11 @@ namespace Infrastructure
 
             modelBuilder.Entity<QuizItemUserAnswerEntity>()
                 .HasOne(e => e.QuizItem);
+
+            modelBuilder.Entity<UserEntity>()
+                .HasData(
+                new UserEntity(1,"321@gmail.com", "strong")
+                );
 
             modelBuilder.Entity<QuizItemAnswerEntity>()
                 .HasData(
@@ -123,25 +131,25 @@ namespace Infrastructure
                 .HasData(
                     new QuizItemEntity()
                     {
-                        Id = 1,
+                        Id = 5,
                         Question = "2 + 3",
                         CorrectAnswer = "5"
                     },
                     new QuizItemEntity()
                     {
-                        Id = 2,
+                        Id = 6,
                         Question = "2 * 3",
                         CorrectAnswer = "6"
                     },
                     new QuizItemEntity()
                     {
-                        Id = 3,
+                        Id = 7,
                         Question = "8 - 3",
                         CorrectAnswer = "5"
                     },
                     new QuizItemEntity()
                     {
-                        Id = 4,
+                        Id = 8,
                         Question = "8 : 2",
                         CorrectAnswer = "4"
                     }
@@ -157,27 +165,35 @@ namespace Infrastructure
                         new { QuizzesId = 2, ItemsId = 3 }
                     )
                 );
+            modelBuilder.Entity<QuizItemUserAnswerEntity>()
+           .HasOne<QuizEntity>()
+           .WithMany()
+           .HasForeignKey(a => a.QuizId);
 
+            modelBuilder.Entity<QuizItemUserAnswerEntity>()
+                .HasOne<UserEntity>()
+                .WithMany()
+                .HasForeignKey(a => a.UserId);
             modelBuilder.Entity<QuizItemEntity>()
                 .HasMany<QuizItemAnswerEntity>(q => q.IncorrectAnswers)
                 .WithMany(e => e.QuizItems)
                 .UsingEntity(join => join.HasData(
                         // "2 + 3"
-                        new { QuizItemsId = 1, IncorrectAnswersId = 1 },
-                        new { QuizItemsId = 1, IncorrectAnswersId = 2 },
-                        new { QuizItemsId = 1, IncorrectAnswersId = 3 },
+                        new { QuizItemsId = 5, IncorrectAnswersId = 1 },
+                        new { QuizItemsId = 5, IncorrectAnswersId = 2 },
+                        new { QuizItemsId = 5, IncorrectAnswersId = 3 },
                         // "2 * 3"
-                        new { QuizItemsId = 2, IncorrectAnswersId = 3 },
-                        new { QuizItemsId = 2, IncorrectAnswersId = 4 },
-                        new { QuizItemsId = 2, IncorrectAnswersId = 7 },
+                        new { QuizItemsId = 6, IncorrectAnswersId = 3 },
+                        new { QuizItemsId = 6, IncorrectAnswersId = 4 },
+                        new { QuizItemsId = 6, IncorrectAnswersId = 7 },
                         // "8 - 3"
-                        new { QuizItemsId = 3, IncorrectAnswersId = 1 },
-                        new { QuizItemsId = 3, IncorrectAnswersId = 3 },
-                        new { QuizItemsId = 3, IncorrectAnswersId = 9 },
+                        new { QuizItemsId = 7, IncorrectAnswersId = 1 },
+                        new { QuizItemsId = 7, IncorrectAnswersId = 3 },
+                        new { QuizItemsId = 7, IncorrectAnswersId = 9 },
                         // "8 : 2"
-                        new { QuizItemsId = 4, IncorrectAnswersId = 2 },
-                        new { QuizItemsId = 4, IncorrectAnswersId = 6 },
-                        new { QuizItemsId = 4, IncorrectAnswersId = 8 }
+                        new { QuizItemsId = 8, IncorrectAnswersId = 2 },
+                        new { QuizItemsId = 8, IncorrectAnswersId = 6 },
+                        new { QuizItemsId = 8, IncorrectAnswersId = 8 }
                     )
                 );
         }

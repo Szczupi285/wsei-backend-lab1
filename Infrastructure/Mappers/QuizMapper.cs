@@ -40,7 +40,6 @@ namespace Infrastructure.Mappers
                 entity.UserId,
                 entity.QuizId,
                 entity.UserAnswer);
-
             
         }
     }

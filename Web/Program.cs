@@ -1,7 +1,7 @@
 using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using Infrastructure.Memory;
-using Infrastructure.Memory.Repository;
+using Infrastructure.Memory.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,5 +30,4 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.Seed();
 app.Run();

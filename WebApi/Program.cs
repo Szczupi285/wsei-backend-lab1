@@ -2,8 +2,10 @@ using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Infrastructure;
 using Infrastructure.Memory;
-using Infrastructure.Memory.Repository;
+using Infrastructure.Memory.Repositories;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Builder;
 using WebApi.Validators;
 
@@ -17,11 +19,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IntGenerator>();
-builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
-builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRepository<QuizItem, int>>();
-builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
-builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
-builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
+builder.Services.AddDbContext<QuizDbContext>();
+//builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
+//builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRepository<QuizItem, int>>();
+//builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
+//builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
+//builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
+builder.Services.AddTransient <IQuizUserService, QuizUserServiceEF>();
 builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
 builder.Services
     .AddControllersWithViews()
@@ -44,5 +48,4 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseHttpsRedirection();
 app.MapControllers();
-app.Seed();
 app.Run();
