@@ -22,9 +22,9 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"DATA SOURCE=NY-13\SQLEXPRESS;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
+            optionsBuilder.UseSqlServer(@"DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
             optionsBuilder.UseSqlServer(
-                @"DATA SOURCE=NY-13\SQLEXPRESS;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True");
+                @"DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -307,3 +307,8 @@ D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\UnitTest\obj\Debug\net7
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\UnitTest\obj\Debug\net7.0\UnitTest.pdb
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\UnitTest\obj\Debug\net7.0\UnitTest.genruntimeconfig.cache
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\UnitTest\obj\Debug\net7.0\ref\UnitTest.dll
+C:\repositories\wsei-backend-lab1\UnitTest\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\repositories\wsei-backend-lab1\UnitTest\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\repositories\wsei-backend-lab1\UnitTest\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\repositories\wsei-backend-lab1\UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\repositories\wsei-backend-lab1\UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll

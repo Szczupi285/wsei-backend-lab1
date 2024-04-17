@@ -864,3 +864,11 @@ D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\WebApi\obj\Debug\net7.0
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\WebApi\obj\Debug\net7.0\WebApi.pdb
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\JWT.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\repositories\wsei-backend-lab1\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

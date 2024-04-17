@@ -322,7 +322,7 @@ namespace BackendLab01.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "534bd528-4fad-4dc1-b24b-7a8f7847497a",
+                            ConcurrencyStamp = "ae16657f-851a-424f-9eb7-3acaa58b07e8",
                             Email = "321@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,

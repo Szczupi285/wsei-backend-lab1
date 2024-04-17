@@ -1,1 +1,9 @@
 ﻿@WebApi_HostAddress = https://localhost:44301
+
+POST https://localhost:44301/api/authentication/login
+Content-Type: application/json
+
+{
+  "loginName": "karol",
+  "password" : "1234ABcd$"
+}

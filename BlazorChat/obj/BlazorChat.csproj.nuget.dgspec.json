@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj": {}
+    "C:\\repositories\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj": {}
   },
   "projects": {
-    "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj": {
+    "C:\\repositories\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj",
+        "projectUniqueName": "C:\\repositories\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj",
         "projectName": "BlazorChat",
-        "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj",
-        "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\",
+        "projectPath": "C:\\repositories\\wsei-backend-lab1\\BlazorChat\\BlazorChat.csproj",
+        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\wsei-backend-lab1\\BlazorChat\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1311,3 +1311,9 @@ D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\Web\obj\Debug\net7.0\re
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\Web\obj\Debug\net7.0\Web.pdb
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\Web\obj\Debug\net7.0\Web.genruntimeconfig.cache
 D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\Web\obj\Debug\net7.0\ref\Web.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\repositories\wsei-backend-lab1\Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
