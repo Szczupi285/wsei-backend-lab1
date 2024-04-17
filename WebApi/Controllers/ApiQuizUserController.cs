@@ -1,8 +1,16 @@
 ﻿using ApplicationCore.Exceptions;
 using AutoMapper;
 using BackendLab01;
+using Infrastructure.EF;
+using JWT.Algorithms;
+using JWT.Builder;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
+using WebApi.Configuration;
 using WebApi.DTO;
 
 namespace WebApi.Controllers
@@ -12,13 +20,17 @@ namespace WebApi.Controllers
     public class ApiQuizUserController : ControllerBase
     {
         private IQuizUserService _userService;
+        private readonly JwtSettings _jwtSettings;
+        private readonly UserManager<UserEntity> _manager;
 
         private readonly IMapper _mapper;
 
-        public ApiQuizUserController(IQuizUserService quizUserService, IMapper mapper)
+        public ApiQuizUserController(IQuizUserService quizUserService, IMapper mapper, JwtSettings jwtSettings, UserManager<UserEntity> manager)
         {
             _userService = quizUserService;
             _mapper = mapper;
+            _jwtSettings = jwtSettings;
+            _manager = manager;
         }
 
         [HttpGet]
@@ -77,5 +89,7 @@ namespace WebApi.Controllers
             };
 
         }
+       
+
     }
 }

@@ -28,6 +28,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.Seed();
 app.MapRazorPages();
 app.Run();

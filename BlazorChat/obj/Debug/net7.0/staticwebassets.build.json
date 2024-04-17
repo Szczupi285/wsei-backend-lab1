@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9ZcLgTevKXtcKDQGvsLO5pa0LBYVxerA4YNtT6CCHyg=",
+  "Hash": "n++EE4/P+izLmynGDoSGKikA36iZTekTOtawvUpR7CY=",
   "Source": "BlazorChat",
   "BasePath": "_content/BlazorChat",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorChat\\wwwroot",
       "Source": "BlazorChat",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorChat.styles.css",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorChat.styles.css",
       "SourceId": "BlazorChat",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "BlazorChat.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorChat.styles.css"
+      "OriginalItemSpec": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorChat.styles.css"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css",
       "SourceId": "BlazorChat",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "BlazorChat.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\css\\site.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\favicon.png",
+      "Identity": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\favicon.png",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\repository\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

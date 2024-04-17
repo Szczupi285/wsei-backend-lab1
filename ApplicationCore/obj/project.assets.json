@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bartek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-      "outputPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\obj\\",
+      "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
+      "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\bartosz.bienienda\\Desktop\\sfa\\wsei-backend-lab1\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -45,3 +45,15 @@ C:\repositories\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCo
 C:\repositories\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\repositories\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\repositories\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\Users\bartosz.bienienda\Desktop\sfa\wsei-backend-lab1\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

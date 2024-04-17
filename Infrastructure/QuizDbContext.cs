@@ -1,4 +1,6 @@
 ﻿using Infrastructure.EF;
+using Infrastructure.EF.Nowy_folder;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
@@ -10,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Infrastructure
 {
-    public class QuizDbContext : DbContext
+    public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
     {
         public DbSet<QuizEntity> Quizzes { get; set; }
         public DbSet<QuizItemEntity> QuizItems { get; set; }
@@ -20,9 +22,9 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
+            optionsBuilder.UseSqlServer(@"DATA SOURCE=NY-13\SQLEXPRESS;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True", b => b.MigrationsAssembly("Web"));
             optionsBuilder.UseSqlServer(
-                "DATA SOURCE=DESKTOP-1CSL6LH;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True");
+                @"DATA SOURCE=NY-13\SQLEXPRESS;DATABASE=Lab;Integrated Security=true;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
