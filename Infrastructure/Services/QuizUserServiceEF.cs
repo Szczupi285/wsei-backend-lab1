@@ -65,7 +65,7 @@ namespace Infrastructure.Services
             
         }
 
-        public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
+        public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
         {
             QuizItemUserAnswerEntity entity = new QuizItemUserAnswerEntity()
             {
@@ -78,7 +78,6 @@ namespace Infrastructure.Services
             {
                 var saved = _context.UserAnswers.Add(entity).Entity;
                 _context.SaveChanges();
-                return new QuizItemUserAnswer(QuizMapper.FromEntityToQuizItem(saved.QuizItem), saved.UserId, saved.QuizId, saved.UserAnswer);
                
             }
             catch (DbUpdateException e)

@@ -9,15 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApi
 build_property.RootNamespace = WebApi
-build_property.ProjectDir = C:\repositories\wsei-backend-lab1\WebApi\
+build_property.ProjectDir = D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\WebApi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\repositories\wsei-backend-lab1\WebApi
+build_property.MSBuildProjectDirectory = D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\WebApi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/repositories/wsei-backend-lab1/WebApi/Razor/Sumary.cshtml]
+[D:/Users/bartosz.bienienda/Desktop/Nowy folder (2)/wsei-backend-lab1/WebApi/Razor/Sumary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UmF6b3JcU3VtYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

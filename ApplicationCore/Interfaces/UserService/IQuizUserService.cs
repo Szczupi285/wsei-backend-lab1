@@ -10,7 +10,7 @@ public interface IQuizUserService
     
     Quiz? FindQuizById(int id);
 
-    QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer);
+    void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer);
 
     List<QuizItemUserAnswer> GetUserAnswersForQuiz(int quizId, int userId);
 

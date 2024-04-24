@@ -130,3 +130,47 @@ C:\repositories\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\refint\BlazorChat.
 C:\repositories\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.pdb
 C:\repositories\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.genruntimeconfig.cache
 C:\repositories\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\ref\BlazorChat.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\appsettings.Development.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\appsettings.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.staticwebassets.runtime.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.exe
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.deps.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.runtimeconfig.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\BlazorChat.pdb
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.csproj.AssemblyReference.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.AssemblyInfoInputs.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.AssemblyInfo.cs
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.csproj.CoreCompileInputs.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.RazorAssemblyInfo.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.RazorAssemblyInfo.cs
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.sourcelink.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets.build.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets.development.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets\msbuild.BlazorChat.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorChat.props
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorChat.props
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorChat.props
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\scopedcss\bundle\BlazorChat.styles.css
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\scopedcss\projectbundle\BlazorChat.bundle.scp.css
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.csproj.Up2Date
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\refint\BlazorChat.dll
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.pdb
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\BlazorChat.genruntimeconfig.cache
+D:\Users\bartosz.bienienda\Desktop\Nowy folder (2)\wsei-backend-lab1\BlazorChat\obj\Debug\net7.0\ref\BlazorChat.dll

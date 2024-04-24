@@ -4,7 +4,7 @@ using ApplicationCore.Interfaces.Repository;
 
 namespace BackendLab01;
 
-public class QuizUserService: IQuizUserService
+public class QuizUserService : IQuizUserService
 {
     private readonly IGenericRepository<Quiz, int> quizRepository;
     private readonly IGenericRepository<QuizItem, int> itemRepository;
@@ -55,5 +55,10 @@ public class QuizUserService: IQuizUserService
     int IQuizUserService.CountCorrectAnswersForQuizFilledByUser(int quizId, int userId)
     {
         return GetUserAnswersForQuiz(quizId, userId).Count(e => e.IsCorrect());
+    }
+
+    void IQuizUserService.SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
+    {
+        throw new NotImplementedException();
     }
 }

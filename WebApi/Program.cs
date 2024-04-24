@@ -10,6 +10,16 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi.Models;
 using WebApi.Configuration;
 using WebApi.Validators;
+public partial class Program
+{
+
+}
+
+partial class Program
+{
+    public static void Main(string[] args)
+    {
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -72,7 +82,7 @@ builder.Services
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
-
+app.AddUsers();
 
 
 // Configure the HTTP request pipeline.
@@ -83,9 +93,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 app.UseHttpsRedirection();
-app.AddUsers();
 app.MapControllers();
 app.Run();
+    }
+}

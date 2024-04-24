@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repositories\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj": {}
+    "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,25 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +88,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -152,25 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\repositories\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj": {
+    "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositories\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\repositories\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\repositories\\wsei-backend-lab1\\UnitTest\\obj\\",
+        "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "D:\\Users\\bartosz.bienienda\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\bartosz.bienienda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,11 +172,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\repositories\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\repositories\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\bartosz.bienienda\\Desktop\\Nowy folder (2)\\wsei-backend-lab1\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -245,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

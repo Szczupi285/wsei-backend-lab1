@@ -283,7 +283,6 @@ namespace BackendLab01.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
@@ -322,7 +321,7 @@ namespace BackendLab01.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ae16657f-851a-424f-9eb7-3acaa58b07e8",
+                            ConcurrencyStamp = "f4156413-2ef2-4c29-bd5a-83b7a1d9a4ff",
                             Email = "321@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
